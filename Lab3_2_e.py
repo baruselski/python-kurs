@@ -1,3 +1,5 @@
+# Laboratorium 3 Zadanie 2 Podpunkt 'e'
+
 from datasets import load_dataset
 import pandas as pd
 from tabulate import tabulate
