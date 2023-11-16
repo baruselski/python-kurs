@@ -6,3 +6,7 @@ import pandas
 # Load dataset and convert to pandas dataframe
 dataset = load_dataset("imodels/credit-card")
 df = pandas.DataFrame(dataset['train'])
+
+# Calculate correlation [-1.0, 1.0]
+corr = df['age'].corr(df['limit_bal'])
+print (corr)
