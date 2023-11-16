@@ -7,7 +7,4 @@ import pandas
 dataset = load_dataset("imodels/credit-card")
 df = pandas.DataFrame(dataset['train'])
 
-# Remove duplicates based on all columns
-df_no_duplicates = df.drop_duplicates()
-
-#print(df_no_duplicates.to_string()) 
+print(df)
